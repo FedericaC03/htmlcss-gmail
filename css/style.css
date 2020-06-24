@@ -1,9 +1,7 @@
 * {
-
  box-sizing:border-box;
  padding:0;
  margin: 0;
-
 }
 
 body {
@@ -53,8 +51,6 @@ background-position: center;
   border-top: 2px solid lightgrey;
   border-bottom: 2px solid lightgrey;
   padding: 10px;
-  /* margin: auto;
-  width: 50%; */
 }
 .email {
   background-color: #B5B5A7;
