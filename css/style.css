@@ -1,3 +1,11 @@
+* {
+
+ box-sizing:border-box;
+ padding:0;
+ margin: 0;
+
+}
+
 body {
 background-image: url(../img/sfondo2.jpg);
 background-repeat: no-repeat;
@@ -22,7 +30,7 @@ background-position: center;
 
 #header-bottom {
    border-top: 2px solid lightgrey;
-   padding: 5px 0;
+   padding: 10px 0;
 }
 
 .count{
@@ -45,9 +53,8 @@ background-position: center;
   border-top: 2px solid lightgrey;
   border-bottom: 2px solid lightgrey;
   padding: 10px;
-  margin: auto;
-  width: 50%;
-  margin-top: -20px;
+  /* margin: auto;
+  width: 50%; */
 }
 .email {
   background-color: #B5B5A7;
@@ -60,7 +67,7 @@ background-position: center;
 
 footer {
  margin: auto;
- width: 25%;
+ width: 250px;
  padding: 10px;
  font-size: 20px;
 }
